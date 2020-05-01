@@ -30,8 +30,6 @@ setInterval(function () {
         image_counter++;
 }, 30);
 
-});
-
 function getData() {
     // Get search results from GIPHY API and loop through items in array, appending each to displayed results
     $.get("https://api.giphy.com/v1/gifs/search?q=" + $('.search').val() + "+&api_key=8i7DkkKJ0SiHMEDMfoceSri0ATmQmmGw&limit=30").done(function (response) {
