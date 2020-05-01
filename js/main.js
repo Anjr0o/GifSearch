@@ -1,4 +1,10 @@
 $(function () {
+    // TAB CLICK FUNCTION
+    $('.nav-item').click(function () {
+        $('.nav-item').removeClass('active');
+        $(this).addClass('active');
+    })
+
     // GIPHY API SEARCH
     // On button click empty results
     $('button').click(function () {
