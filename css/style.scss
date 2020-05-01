@@ -48,6 +48,14 @@ body {
 .form-control, .btn {
     border-radius: 25px;
 }
+
+.form-control {
+    border-width: 0;
+}
+
+.navbar {
+    top: 0;
+}
 @media only screen and (max-width: 600px) {
     
     #loading {
