@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Press+Start+2P&display=swap");
 body {
   font-family: "Baloo 2", cursive;
+  background-image: url("https://source.unsplash.com/collection/1368747");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar-brand {
@@ -21,6 +26,10 @@ body {
 
 .results > img {
   padding: 2%;
+}
+
+#loading {
+  margin: 7%;
 }
 
 @media only screen and (max-width: 600px) {
