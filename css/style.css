@@ -1,1 +1,11 @@
-/* No CSS */
+.form-inline {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.results {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
