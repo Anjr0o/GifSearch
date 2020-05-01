@@ -31,12 +31,16 @@ body {
     padding-bottom: 15%;
 }
 
-#contact {
+#info {
     background: rgba(255, 255, 255, 0.521);
 }
 
-#contact h2 {
+#info h2 {
     padding-top: .5em;
+}
+
+.LI-profile-badge {
+    background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
