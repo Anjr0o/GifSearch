@@ -6,3 +6,13 @@
     justify-content: center;
     text-align: center;
 }
+
+.results > img {
+    padding: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    #loading {
+        display: none;
+    }
+}
