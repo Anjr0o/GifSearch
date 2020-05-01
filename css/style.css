@@ -22,7 +22,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  background: rgba(255, 255, 255, 0.521);
 }
 
 .results > img {
@@ -32,6 +31,14 @@ body {
 #loading {
   padding-top: 10%;
   padding-bottom: 15%;
+}
+
+#contact {
+  background: rgba(255, 255, 255, 0.521);
+}
+
+#contact h2 {
+  padding-top: .5em;
 }
 
 @media only screen and (max-width: 600px) {

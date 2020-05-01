@@ -15,7 +15,7 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark" role="navigation">
         <a class="navbar-brand" href="#">GifSearch</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#results">Results <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             <form class="form-inline ml-sm-2 my-2 my-lg-0">
@@ -41,14 +41,19 @@
     <div class='container'>
         <div class='row'>
             <div class='col-md-12'>
-                <div class='results'>
+                <div class='results' id="results">
                     <img id='loading' src="image/favicon/giphy.gif" type="image/gif">
                 </div>
             </div>
         </div>
+        <div class='row'>
+            <div class='col-md-12' id='contact'>
+                <h2>
+                    Contact
+                </h2>
+            </div>
+        </div>
     </div>
-
-
 
 
     <!-- jQuery Script -->
