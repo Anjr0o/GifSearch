@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Press+Start+2P&display=swap");
 
-body {
-    font-family: "Baloo 2", cursive;
-    background-image: url("https://source.unsplash.com/collection/1368747");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-
 // NAVBAR STYLING
 .form-control, .btn, .LI-badge-container.horizontal.dark, .navbar-toggler {
     border-radius: 25px !important;
@@ -38,6 +29,27 @@ body {
 }
 
 // CONTENT STYLING
+body {
+    font-family: "Baloo 2", cursive;
+    background-image: url("https://source.unsplash.com/collection/1368747");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding-top: 55px;
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -55px;
+    left: 0;
+    visibility: hidden;
+}
+
 .results {
     justify-content: center;
     text-align: center;

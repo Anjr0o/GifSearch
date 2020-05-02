@@ -1,4 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Press+Start+2P&display=swap");
+.form-control, .btn, .LI-badge-container.horizontal.dark, .navbar-toggler {
+  border-radius: 25px !important;
+}
+
+.form-control {
+  border-width: 0;
+}
+
+.form-inline {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.navbar-brand {
+  font-family: "Press Start 2P", cursive;
+}
+
+.dropdown-menu {
+  border-radius: 25px;
+  text-align: center;
+}
+
+.btn-group-sm > .btn {
+  border-radius: 25px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
 body {
   font-family: "Baloo 2", cursive;
   background-image: url("https://source.unsplash.com/collection/1368747");
@@ -6,15 +34,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 55px;
 }
 
-.navbar-brand {
-  font-family: "Press Start 2P", cursive;
-}
-
-.form-inline {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+.anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -55px;
+  left: 0;
+  visibility: hidden;
 }
 
 .results {
@@ -38,40 +69,9 @@ body {
   border-radius: 25px;
 }
 
-.navbar-toggler {
-  border-radius: 25px;
-}
-
 #info h2 {
   padding-top: .5em;
   font-family: "Press Start 2P";
-}
-
-.LI-badge-container.horizontal.dark {
-  border-radius: 25px !important;
-}
-
-.form-control, .btn {
-  border-radius: 25px;
-}
-
-.form-control {
-  border-width: 0;
-}
-
-.navbar {
-  top: 0;
-}
-
-.dropdown-menu {
-  border-radius: 25px;
-  text-align: center;
-}
-
-.btn-group-sm > .btn {
-  border-radius: 25px;
-  margin-top: .5em;
-  margin-bottom: .5em;
 }
 
 @media only screen and (max-width: 600px) {
