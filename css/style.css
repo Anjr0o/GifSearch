@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Press+Start+2P&display=swap");
-.form-control, .btn, .LI-badge-container.horizontal.dark, .navbar-toggler {
+.form-control, .btn, .navbar-toggler {
+  border-radius: 25px;
+}
+
+.LI-badge-container.horizontal.dark {
   border-radius: 25px !important;
 }
 
