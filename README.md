@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# GifSearch by Andrew Stokes
 
-You can use the [editor on GitHub](https://github.com/Anjr0o/GifSearch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A search engine for filtering and finding Gifs using GIPHY's third party API...
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Details
+GifSearch is a site designed to demonstrate proficiency with the use of 3rd Party APIs and SCSS styling skills.
+It features the use of GIPHY API to search for GIFs by entering keywords, rating, and number of GIFs desired.
+The site is extremely easy to access.  Simply go to https://anjr0o.github.io/GifSearch
 
-### Markdown
+It also uses Unsplash API to generate a random background from a collection of texture backgrounds designed to allow easy visibility with web applications.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+And as a finishing touch, I figured since this is a GIF site why not create a function to animate the favicon into a GIF! 
 
-```markdown
-Syntax highlighted code block
+## Technologies Used
+In addition to the APIs mentioned above, GifSearch was powered by Bootstrap, Sass, jQuery, and a small snippet of Linkedin's scripts for profile badges.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Anjr0o/GifSearch/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Future Improvement
+- I am not incredibly thrilled with the way the GIFs display on the page.  I am confident in my styling abilities but I will continue to keep an eye out for possible display ideas that are aesthetically pleasing to the eye.
+- Could add ScrollSpy effect for Nav links
+- Could use a library to allow the use of a regular GIF as a favicon for browsers like Firefox, which support GIF favicons
