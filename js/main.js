@@ -7,13 +7,13 @@ $(function () {
     
     // NUMBER CLICK FUNCTION
     $('#number > .btn-secondary').click(function() {
-        $('#number > .btn-secondary').siblings().removeClass('active');
+        $('#number > .btn-secondary').removeClass('active');
         $(this).addClass('active');
     })
 
     // RATING CLICK FUNCTION
     $('#rating > .btn-secondary').click(function() {
-        $('#rating > .btn-secondary').siblings().removeClass('active');
+        $('#rating > .btn-secondary').removeClass('active');
         $(this).addClass('active');
     })
 
@@ -44,7 +44,7 @@ $(function () {
 
 function getData() {
     // Get search results from GIPHY API and loop through items in array, appending each to displayed results
-    $.get("https://api.giphy.com/v1/gifs/search?q=" + $('.search').val() + "+&api_key=8i7DkkKJ0SiHMEDMfoceSri0ATmQmmGw&limit=30").done(function (response) {
+    $.get("https://api.giphy.com/v1/gifs/search?q=" + $('.search').val() + "+&api_key=8i7DkkKJ0SiHMEDMfoceSri0ATmQmmGw&limit=" + $('#number > .active').text() + "&rating=" + $('#rating > .active').text()).done(function (response) {
         for (i in response.data) {
             $('.results').append("<img src ='" + response.data[i].images.original.url + "' style='width:250px;'/>");
         }
