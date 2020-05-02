@@ -2,6 +2,7 @@
 <html lang='en-US'>
 
 <head>
+    <!-- Favicon and Title -->
     <link rel="icon" href="image/favicon/frame_0_delay-0.03s.gif" type="image/gif">
     <Title>GifSearch</Title>
     <!-- Required meta tags for Bootstrap -->
@@ -16,12 +17,16 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark" role="navigation">
+        <!-- Title -->
         <a class="navbar-brand" href="#">GifSearch</a>
+        <!-- Hamburger button -->
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Nav items -->
         <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <!-- Nav links -->
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                     <a class="nav-link" href="#results">Results <span class="sr-only">(current)</span></a>
@@ -30,20 +35,24 @@
                     <a class="nav-link" href="#info">Info</a>
                 </li>
             </ul>
+            <!-- Search form -->
             <form class="form-inline ml-sm-2 my-2 my-lg-0">
                 <input class="form-control mr-2 search" type="text" placeholder="Search GIFs">
-
                 <div class="dropdown">
+                    <!-- More options button -->
                     <button class="btn btn-secondary dropdown-toggle mr-2" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         More
                     </button>
+                    <!-- More options -->
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <!-- Number of GIFs buttons -->
                         <div id="number" class="btn-group btn-group-sm" role="group" aria-label="Number of GIFs">
                             <button type="button" class="btn btn-secondary">10</button>
                             <button type="button" class="btn btn-secondary active">30</button>
                             <button type="button" class="btn btn-secondary">50</button>
                         </div>
+                        <!-- Rating buttons -->
                         <div id="rating" class="btn-group btn-group-sm" role="group" aria-label="Rating">
                             <button type="button" class="btn btn-secondary">G</button>
                             <button type="button" class="btn btn-secondary">PG</button>
@@ -52,10 +61,7 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
+                <!-- Search button -->
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
@@ -66,6 +72,7 @@
         <div class='row'>
             <div class='col-md-12'>
                 <div class='results' id="results">
+                    <!-- Loading GIF -->
                     <img id='loading' src="image/favicon/giphy.gif" type="image/gif">
                 </div>
             </div>
@@ -88,6 +95,7 @@
                 </p>
             </div>
             <div class='col-sm-6 col-md-3'>
+                <!-- Linkedin profile badge -->
                 <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
                     data-type="horizontal" data-theme="dark" data-vanity="84andrewstokes"><a class="LI-simple-link"
                         href='https://www.linkedin.com/in/84andrewstokes?trk=profile-badge'>Andrew Stokes</a></div>

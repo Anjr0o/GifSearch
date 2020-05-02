@@ -9,14 +9,35 @@ body {
     background-size: cover;  
 }
 
-.navbar-brand {
-    font-family: "Press Start 2P", cursive;
+// NAVBAR STYLING
+.form-control, .btn, .LI-badge-container.horizontal.dark, .navbar-toggler {
+    border-radius: 25px !important;
+}
+
+.form-control {
+    border-width: 0;
 }
 
 .form-inline {
     flex-wrap: nowrap;
 }
 
+.navbar-brand {
+    font-family: "Press Start 2P", cursive;
+}
+
+.dropdown-menu {
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn-group-sm>.btn {
+    border-radius: 25px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+// CONTENT STYLING
 .results {
     justify-content: center;
     text-align: center;
@@ -36,41 +57,11 @@ body {
     border-radius: 25px;
 }
 
-.navbar-toggler {
-    border-radius: 25px;
-}
-
 #info h2 {
     padding-top: .5em;
     font-family: "Press Start 2P";
 }
 
-.LI-badge-container.horizontal.dark {
-    border-radius: 25px !important;
-}
-
-.form-control, .btn {
-    border-radius: 25px;
-}
-
-.form-control {
-    border-width: 0;
-}
-
-.navbar {
-    top: 0;
-}
-
-.dropdown-menu {
-    border-radius: 25px;
-    text-align: center;
-}
-
-.btn-group-sm>.btn {
-    border-radius: 25px;
-    margin-top: .5em;
-    margin-bottom: .5em;
-}
 @media only screen and (max-width: 600px) {
     
     #loading {
