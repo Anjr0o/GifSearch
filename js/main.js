@@ -4,6 +4,18 @@ $(function () {
         $('.nav-item').removeClass('active');
         $(this).addClass('active');
     })
+    
+    // NUMBER CLICK FUNCTION
+    $('#number > .btn-secondary').click(function() {
+        $('#number > .btn-secondary').siblings().removeClass('active');
+        $(this).addClass('active');
+    })
+
+    // RATING CLICK FUNCTION
+    $('#rating > .btn-secondary').click(function() {
+        $('#rating > .btn-secondary').siblings().removeClass('active');
+        $(this).addClass('active');
+    })
 
     // GIPHY API SEARCH
     // On form submit, empty results, preventDefault and instead getData()
