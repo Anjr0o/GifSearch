@@ -1,18 +1,28 @@
 $(function () {
+    // TYPING EFFECT
+    const words = "This site was created to demonstrate proficiency in the use of 3rd Party APIs. API, which stands for \"application programming interface\", is a computing interface which simply defines the interactions between multiple software intermediaries such as the kinds of calls or requests that can be made, and how to make them. For example, I used GIPHY's API to send your search input and return a number of GIFs back. You'll also notice if you refresh the page, there will be a brand new background courtesy of Unsplash's API.";
+    let paragraph = "";
+    for (let i = 0; i < words.length; i++) {
+        setTimeout(function () {
+            paragraph += words[i];
+            $('#about').text(paragraph);
+        }, i * 50);
+    }
+
     // TAB CLICK FUNCTION
     $('.nav-item').click(function () {
         $('.nav-item').removeClass('active');
         $(this).addClass('active');
     })
-    
+
     // NUMBER CLICK FUNCTION
-    $('#number > .btn-secondary').click(function() {
+    $('#number > .btn-secondary').click(function () {
         $('#number > .btn-secondary').removeClass('active');
         $(this).addClass('active');
     })
 
     // RATING CLICK FUNCTION
-    $('#rating > .btn-secondary').click(function() {
+    $('#rating > .btn-secondary').click(function () {
         $('#rating > .btn-secondary').removeClass('active');
         $(this).addClass('active');
     })
